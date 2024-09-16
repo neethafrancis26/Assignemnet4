@@ -28,6 +28,10 @@
   margin: auto;
 }
 
+.home-main-img{
+  display: none;
+}
+
 
 header {
   display: flex;
@@ -49,6 +53,10 @@ header {
   margin-top: 20px;
 }
 
+.jbl{
+  display: none;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap; 
@@ -64,7 +72,7 @@ nav ul li {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 nav ul li:hover {
@@ -261,6 +269,7 @@ color: #ffffff;
   text-align: center;
   margin: 0 auto;
   padding: 0 20px; 
+  overflow: hidden;
 }
 
 .items h3 {
@@ -620,6 +629,14 @@ text-align: left;
   color: #9D9895;
 }
 
+.foot-desc p  {
+  margin-top: 30px;
+}
+
+.foot-desc p a {
+  text-decoration: none;
+}
+
 .foot-btn input {
   padding: 10px;
   border: none;
@@ -659,6 +676,47 @@ opacity: 0px;
 
 .social-row{
   margin-right: 30px;
+}
+
+@media(max-width:770px){
+  .block2-group1 {
+    max-width: 989px;
+    width: 100%;
+    height: 405px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.block2-container {
+  max-width: 1440px;
+  width: 100%;
+  height: 589px;
+  display: flex;
+  justify-content: center;
+}
+
+.block2-contents h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.block2-contant-sec2 {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.block2-img .infine {
+  width: 100%;
+  margin-top: 30px;
+}
 }
 
 @media(max-width:720px){
@@ -731,7 +789,7 @@ hr {
 }
 
 .block2-contents h3 {
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -743,8 +801,12 @@ hr {
   line-height: 23px;
   color: #9d9895;
   margin-top: 37px;
-  margin-left: 51px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
+
 
 .block2-img .infine {
   display: none;
@@ -769,27 +831,462 @@ hr {
 }
 
 .headphone .l11 {
-  width: 32px;
+  width: 29px;
   position: absolute;
   top: 149px;
-  right: 62px;
-
+  right: 148px;
 }
 
 .headphone .r12 {
-  right: 93px;
-  width: 32px;
+  right: 176px;
+  width: 28px;
   border: 2px #7D7978;
   position: absolute;
   top: 149px;
 }
-
 .headphone .easy {
-  max-width: 115px;
-  height: 50px;
+  max-width: 105px;
+  height: 40px;
   position: absolute;
-  top: 124px;
+  top: 53px;
+  right: 128px;
+}
+
+.headphone .d4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 82px;
+  /* right: 78px; */
+  left: 188px;
+}
+
+.headphone .l21 {
+  width: 28px;
+  position: absolute;
+  top: 71px;
+  left: 161px;
+  /* right: 81px; */
+}
+
+.headphone .l22 {
+  width: 30px;
+  position: absolute;
+  border: 2px #7D7978;
+  top: 71px;
+  left: 132px;
+}
+
+.headphone .comfort {
+  max-width: 115px;
+  height: 43px;
+  position: absolute;
+  top: 129px;
+  left: -9px;
+}
+
+.headphone .d2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 270px;
+  right: 203px;
+}
+
+.items h3 {
+  font-size: 25px;
+}
+
+.spec-head h3 {
+  font-size: 27px;
+  
+}
+
+.headphone .r21 {
+  width: 27px;
+  position: absolute;
+  border: 2px #7D7978;
+  top: 255px;
+  right: 184px;
+}
+
+.headphone .l12 {
+  width: 31px;
+  position: absolute;
+  border: 2px #7D7978;
+  top: 255px;
+  right: 154px;
+}
+
+.headphone .charge {
+  max-width: 125px;
+  height: 41px;
+  position: absolute;
+  top: 235px;
+  right: 78px;
+}
+
+.headphone .d1 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 205px;
   right: 113px;
+}
+
+.headphone .r11 {
+  width: 28px;
+  position: absolute;
+  border: 2px #7D7978;
+  top: 191px;
+  right: 91px;
+}
+
+.headphone .r22 {
+  width: 34px;
+  position: absolute;
+  top: 191px;
+  right: 58px;
+}
+
+.headphone .custom {
+  max-width: 115px;
+  height: 43px;
+  position: absolute;
+  top: 172px;
+  right: -19px;
+}
+
+.headphone .d3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 157px;
+  right: 133px;
+}
+}
+
+@media(max-width:377px){
+  .menu .menu-img {
+    width: 24px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+}
+
+.logo-image {
+  display: none;
+}
+
+.jbl{
+  display: block;
+  width: 34px;
+height: 30px;
+object-fit: contain;
+
+
+
+margin-top: 20px;
+
+}
+
+.follow-us p {
+  left: 3px;
+  top: 220px;
+}
+
+.social {
+  left: 33px;
+  top: 353px;
+}
+
+hr {
+  left: 20px;
+  position: absolute;
+  top: 304px;
+}
+
+#landing-section {
+   background-image: none;
+   height: 647px; 
+ 
+}
+
+.block2-contents p {
+  width: 328px;
+height: 115px;
+
+}
+
+.block2-contents {
+  width: 320px;
+  text-align: start;
+}
+
+.block2-contents h3 {
+  font-size: 20px;
+  
+}
+
+.items {
+
+  height: 383px;
+}
+
+.items h3 {
+  font-size: 20px;
+  /* margin-top: -164px; */
+}
+
+.spec-head h3 {
+  font-size: 20px;
+}
+
+.spec-sec {
+ 
+  height: 572px;
+  
+}
+
+.block2-contents {
+  width: 330px;
+  text-align: start;
+}
+
+.blr img {
+  width: 100%;
+  max-width: 180px;
+}
+
+.no-blr img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+}
+
+.no-blr-btn .nbb {
+  background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
+  width: 138px;
+  height: 39px;
+}
+
+.blr-btn .bb {
+  background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
+  width: 138px;
+  height: 39px;
+}
+
+.home-main-img {
+  display: flex;
+  margin-top: 135px;
+  margin-left: 66px;
+  position: relative;
+}
+
+.home-main-img .logo-small {
+  width: 111px;
+  height: 47px;
+  position: absolute;
+  left: 134px;
+  top: -21px;
+}
+.home-main-img h1{
+  font-size: 160px;
+  color:#590078;
+}
+.home-headset{
+  width: 220px;
+  height: 262px;
+  position: absolute;
+}
+.home-tooltip{
+  position: absolute;
+  margin-left: 157px;
+  margin-top: 21px;
+  z-index: 1;
+}
+.home-tooltip img{
+  width: 95px;
+  height: 32px;
+  object-fit: contain;
+  position: absolute;
+  z-index: -1;
+}
+.home-tooltip button{
+  width: 54px;
+}
+
+.home-j{
+  z-index: 1;
+}
+.socialmedia-links{
+  display: grid;
+}
+
+.sponser {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.foot-row {
+  /* flex-direction: column; */
+  /* align-items: center; */
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.foot-col {
+  margin-right: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* .foot-col h4 {
+  text-align: center;
+} */
+
+/* .foot-col ul li {
+  text-align: center;
+} */
+
+/* .foot-btn {
+  width: 100%;
+  max-width: 300px;
+} */
+
+.subscribe-btn {
+  position: static;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* .social-med {
+  justify-content: center;
+} */
+
+/* .social-row {
+  margin-right: 10px;
+} */
+
+.foot-desc {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.section-footer {
+  width: 100%;
+  background-color: #0b0a09;
+  color: white;
+  height: 425px;
+}
+
+.f-logo .jbl {
+  display: block;
+  width: 34px;
+  height: 30px;
+  object-fit: contain;
+  margin-top: 20px;
+  position: relative;
+  left: -131px;
+  margin-bottom: 49px;
+}
+
+.social-med {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.sponser-main {
+  width: 100%;
+  max-width: 1440px;
+  height: 329px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sponser-img img {
+  width: 100px;
+  height: 35.13px;
+  object-fit: contain;
+  margin-bottom: 60px;
+}
+
+.foot-desc p {
+  margin-top: 10px;
+}
+
+.spec-btn2 button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 158px;
+height: 56px;
+border: none;
+  background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
+  left: 49px;
+  top: 315px;
+  position: absolute;
+}
+
+.spec-btn2 button img {
+  width: 32px;
+  height: 32px;
+  padding: 2.67px;
+  gap: 0px;
+  opacity: 0px;
+}
+}
+
+@media(max-width:321px){
+  .home-main-img h1 {
+    font-size: 137px;
+    color: #590078;
+}
+
+.home-headset {
+    width: 210px;
+    height: 251px;
+    position: absolute;
+}
+
+.spec-btn2 button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 158px;
+    height: 56px;
+    border: none;
+    left: 28px;
+    top: 315px;
+    position: absolute;
+}
+
+.block2-contents p {
+  width: 324px;
+  height: 115px;
+}
+
+.block2-contents p {
+  width: 299px;
+  height: 115px;
 }
 
 }
