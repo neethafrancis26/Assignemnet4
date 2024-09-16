@@ -677,7 +677,8 @@ hr {
 }
 
 .subscribe-btn {
-  background-color: #333;
+  background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
+
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
