@@ -1096,6 +1096,7 @@ hr {
   .follow-us p {
     left: 3px;
     top: 220px;
+    font-size: 13px;
   }
 
   .social {
@@ -1107,6 +1108,13 @@ hr {
     left: 20px;
     position: absolute;
     top: 304px;
+    width: 48px;
+    color: #9d9895
+  }
+
+  .social-media{
+    width: 20px;
+    height: 20px;
   }
 
   #landing-section {
@@ -1170,12 +1178,13 @@ hr {
     background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
     width: 138px;
     height: 39px;
-  }
-
+    color: #0b0a09;
+    background: #0b0a09;
+}
   .home-main-img {
     display: flex;
     margin-top: 135px;
-    margin-left: 66px;
+    margin-left: 82px;
     position: relative;
   }
 
@@ -1245,14 +1254,14 @@ hr {
   .foot-desc {
     font-size: 12px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 75px;
   }
 
   .section-footer {
     width: 100%;
     background-color: #0b0a09;
     color: white;
-    height: 563px;
+    height: 670px;
   }
 
   .f-logo .jbl {
@@ -1346,7 +1355,7 @@ hr {
   .footer-div {
     width: 100%;
     max-width: 1440px;
-    height: 557px;
+    height: 659px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1355,7 +1364,11 @@ hr {
     margin: 0 auto;
     padding: 0 20px;
   }
+
 }
+
+
+
 
 @media (max-width: 377px) {
   .menu .menu-img {
@@ -1457,7 +1470,9 @@ hr {
     background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
     width: 138px;
     height: 39px;
-  }
+    color: #0b0a09;
+    background: #0b0a09;
+}
 
   .home-main-img {
     display: flex;
@@ -1532,14 +1547,14 @@ hr {
   .foot-desc {
     font-size: 12px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 75px;
   }
 
   .section-footer {
     width: 100%;
     background-color: #0b0a09;
     color: white;
-    height: 561px;
+    height: 670px;
   }
 
   .f-logo .jbl {
