@@ -100,17 +100,21 @@ nav ul {
 }
 
 nav ul li {
-  color: aliceblue;
-  font-family: serif;
-  font-size: 20px;
+  color: #ffffff;
+  font-family: poppins;
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0 30px;
+  margin: 0 38px;
 }
 
-nav ul li:hover {
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li:first-child a {
   color: #590078;
-  cursor: pointer;
 }
 
 header,
@@ -119,39 +123,15 @@ nav {
   max-width: 1440px;
 }
 
-/* .hero-text {
+.hero-text img {
+  width: 80%;
+  max-width: 554px;
+  height: auto;
+  margin-top: 517px;
+  margin-left: 17%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  object-fit: contain;
   position: absolute;
-  top: 62%;
-  left: 33%;
-  transform: translate(-50%, -50%);
-} */
-
-/* .hero-text h1 {
-  font-family: "poppins", Times, serif;
-  font-size: 8vw;
-  font-weight: 800;
-  line-height: 1.1;
-  text-align: left;
-  color: #3a2152;
-  max-width: 90vw;
-} */
-
-.hero-text img{
-
-    width: 80%;
-    max-width: 554px;
-    height: auto;
-    /* height: 105px; */
-    margin-top: 517px;
-    margin-left: 17%;
-    display: flex;
-    object-fit: contain;
-    position: absolute;
-
 }
 
 .social-media {
@@ -167,11 +147,6 @@ nav {
 aside {
   width: 123px;
   height: 250px;
-  top: 365px;
-  left: 160px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
 }
 
 .social {
@@ -190,20 +165,21 @@ aside {
   transform: rotate(90deg);
   width: 83px;
   height: 24px;
-  top: 355px;
-  left: 137px;
+  top: 398px;
+  left: 132px;
   gap: 0px;
   opacity: 0px;
   position: absolute;
+  font-size: 16px;
+  color: #9d9895;
 }
 
 hr {
   width: 48px;
   height: 0px;
-  top: 461px;
+  top: 482px;
   left: 233px;
   gap: 0px;
-  border: 1px 0px 0px 0px;
   opacity: 0px;
   transform: rotate(90deg);
   position: absolute;
@@ -229,13 +205,15 @@ hr {
   justify-content: center;
   background-color: #0b0a09;
 }
+
 .block2-container {
   max-width: 1440px;
   width: 100%;
-  height: 406px;
+  height: 478px;
   display: flex;
   justify-content: center;
 }
+
 .block2-group1 {
   max-width: 989px;
   width: 100%;
@@ -246,32 +224,40 @@ hr {
   text-align: center;
   padding: 0 20px;
 }
+
 .block2-contents {
   width: 401px;
   text-align: start;
 }
+
 .block2-contents h3 {
   font-size: 36px;
   font-weight: 600;
   line-height: 54px;
   color: #ffffff;
+  margin-top: 134px;
 }
+
 .block2-contents p {
   font-size: 16px;
   line-height: 24px;
   color: #9d9895;
   margin-top: 41px;
 }
+
 .block2-img {
   width: 500px;
 }
+
 .block2-img .infine {
   width: 100%;
+  margin-top: 112px;
 }
 
 .block2-img .bloc-headp {
   display: none;
 }
+
 .block2-contant-sec2 {
   margin-top: 55px;
 }
@@ -321,6 +307,7 @@ hr {
   line-height: 54px;
   text-align: left;
 }
+
 .item-images {
   display: flex;
   flex-direction: row;
@@ -582,7 +569,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 9%;
   width: 100%;
   max-width: 100%;
 }
@@ -603,7 +590,7 @@ hr {
 .footer-div {
   width: 100%;
   max-width: 1440px;
-  height: 331px;
+  height: 443px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -647,6 +634,11 @@ hr {
   color: #9d9895;
 }
 
+.foot-col ul li a {
+  text-decoration: none;
+  color: #9d9895;
+}
+
 .foot-col h4 {
   margin-bottom: 15px;
   font-size: 20px;
@@ -659,26 +651,30 @@ hr {
   color: #9d9895;
 }
 
-.foot-desc p {
-  margin-top: 30px;
+.foot-desc .desktop-desc {
+  margin-top: 114px;
 }
 
-.foot-desc p a {
-  text-decoration: none;
+.foot-desc .desktop-desc a {
+  color: #590078;
 }
 
 .foot-btn input {
   padding: 10px;
+  color: #ffffff;
   border: none;
   border-radius: 39px;
   width: 330px;
   height: 62px;
-  background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
+  background: #1b1918;
+}
+
+.foot-btn :focus {
+  outline: none;
 }
 
 .subscribe-btn {
-  background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
-
+  background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
@@ -687,7 +683,7 @@ hr {
   gap: 5%;
   position: absolute;
   top: 5px;
-  left: 169px;
+  left: 180px;
   border: none;
 }
 
@@ -705,7 +701,11 @@ hr {
 }
 
 .social-row {
-  margin-right: 30px;
+  margin-right: 20px;
+}
+
+.mobile-description {
+  display: none;
 }
 
 @media (max-width: 770px) {
@@ -784,7 +784,6 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-top: 49px; */
   }
 
   .footer-div {
@@ -820,6 +819,10 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .foot-col {
+    margin-right: 58px;
   }
 }
 
@@ -898,6 +901,7 @@ hr {
     justify-content: center;
     margin-top: 29px;
   }
+
   .block2-contents p {
     font-size: 15px;
     line-height: 23px;
@@ -920,7 +924,7 @@ hr {
   .block2-img .bloc-headp {
     display: block;
     width: 280px;
-    margin-top: 20px;
+    margin-top: 71px;
   }
 
   .headphone .image {
@@ -945,6 +949,7 @@ hr {
     position: absolute;
     top: 149px;
   }
+
   .headphone .easy {
     max-width: 105px;
     height: 40px;
@@ -958,7 +963,6 @@ hr {
     height: 20px;
     position: absolute;
     top: 82px;
-    /* right: 78px; */
     left: 188px;
   }
 
@@ -967,7 +971,6 @@ hr {
     position: absolute;
     top: 71px;
     left: 161px;
-    /* right: 81px; */
   }
 
   .headphone .l22 {
@@ -1076,7 +1079,7 @@ hr {
     margin-top: 20px;
   }
 
-  .hero-text{
+  .hero-text {
     display: none;
   }
 
@@ -1109,10 +1112,10 @@ hr {
     position: absolute;
     top: 304px;
     width: 48px;
-    color: #9d9895
+    color: #9d9895;
   }
 
-  .social-media{
+  .social-media {
     width: 20px;
     height: 20px;
   }
@@ -1180,7 +1183,7 @@ hr {
     height: 39px;
     color: #0b0a09;
     background: #0b0a09;
-}
+  }
   .home-main-img {
     display: flex;
     margin-top: 135px;
@@ -1278,7 +1281,6 @@ hr {
   .social-med {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     margin: auto;
   }
@@ -1302,7 +1304,7 @@ hr {
     margin-bottom: 60px;
   }
 
-  .foot-desc p {
+  .foot-desc .desktop-desc {
     margin-top: 10px;
   }
 
@@ -1336,7 +1338,7 @@ hr {
     border-radius: 39px;
     width: 309px;
     height: 62px;
-    background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
+    background: #1b1918;
   }
 
   .home-main-img h1 {
@@ -1364,11 +1366,7 @@ hr {
     margin: 0 auto;
     padding: 0 20px;
   }
-
 }
-
-
-
 
 @media (max-width: 377px) {
   .menu .menu-img {
@@ -1472,7 +1470,7 @@ hr {
     height: 39px;
     color: #0b0a09;
     background: #0b0a09;
-}
+  }
 
   .home-main-img {
     display: flex;
@@ -1557,21 +1555,35 @@ hr {
     height: 670px;
   }
 
-  .f-logo .jbl {
-    display: block;
-    width: 34px;
-    height: 30px;
-    object-fit: contain;
-    margin-top: 20px;
-    position: relative;
-    left: -131px;
-    margin-bottom: 49px;
-  }
+  .footer-div {
+    width: 100%;
+    max-width: 1440px;
+    height: 659px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: absolute;
+    left: -15px;
+}
+
+.f-logo .jbl {
+  display: block;
+  width: 34px;
+  height: 30px;
+  object-fit: contain;
+  margin-top: 20px;
+  position: relative;
+  left: -117px;
+  margin-bottom: 49px;
+}
 
   .social-med {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
     margin: auto;
   }
@@ -1595,8 +1607,14 @@ hr {
     margin-bottom: 60px;
   }
 
-  .foot-desc p {
+  .foot-desc .desktop-desc {
     margin-top: 10px;
+    display: none;
+  }
+
+  .foot-desc .mobile-description {
+    margin-top: 10px;
+    display: block;
   }
 
   .spec-btn2 button {
@@ -1627,9 +1645,9 @@ hr {
     padding: 10px;
     border: none;
     border-radius: 39px;
-    width: 309px;
+    width: 272px;
     height: 62px;
-    background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
+    background: #1b1918;
   }
 
   .home-main-img h1 {
@@ -1687,8 +1705,8 @@ hr {
     padding: 10px;
     border: none;
     border-radius: 39px;
-    width: 294px;
+    width: 242px;
     height: 62px;
-    background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
+    background: #1b1918;
   }
 }
