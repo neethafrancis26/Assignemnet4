@@ -11,24 +11,6 @@
   font-style: normal;
 }
 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
 .poppins-extrabold {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -56,7 +38,7 @@
   gap: 0px;
   opacity: 0px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   position: relative;
   margin: auto;
@@ -90,13 +72,17 @@ header {
   display: none;
 }
 
+h4{
+  font-weight: 600px;
+}
+
 nav ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: center;
+  justify-content: right;
 }
 
 nav ul li {
@@ -111,6 +97,8 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
+  position: relative;
+  right: 95px;
 }
 
 nav ul li:first-child a {
@@ -125,10 +113,10 @@ nav {
 
 .hero-text img {
   width: 80%;
-  max-width: 554px;
+  max-width: 536px;
   height: auto;
-  margin-top: 517px;
-  margin-left: 17%;
+  margin-top: 499px;
+  margin-left: 22%;
   display: flex;
   object-fit: contain;
   position: absolute;
@@ -169,6 +157,7 @@ aside {
   left: 132px;
   gap: 0px;
   opacity: 0px;
+  font-weight: 500px;
   position: absolute;
   font-size: 16px;
   color: #9d9895;
@@ -301,7 +290,6 @@ hr {
 
 .items h3 {
   margin-bottom: 20px;
-
   font-size: 36px;
   font-weight: 600;
   line-height: 54px;
@@ -539,7 +527,7 @@ hr {
   width: 158px;
   height: 56px;
   border: none;
-
+  margin-top: 25px;
   background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
 }
 
@@ -576,7 +564,7 @@ hr {
 
 .sponser-img img {
   width: 100px;
-  height: 35.13px;
+  height: 30px;
   object-fit: contain;
 }
 
@@ -617,7 +605,7 @@ hr {
 }
 
 .foot-col {
-  margin-right: 100px;
+  margin-right: 91px;
 }
 
 .foot-col ul {
@@ -669,6 +657,10 @@ hr {
   background: #1b1918;
 }
 
+::placeholder{
+  color: #ffffff;
+}
+
 .foot-btn :focus {
   outline: none;
 }
@@ -706,6 +698,62 @@ hr {
 
 .mobile-description {
   display: none;
+}
+
+@media(max-width:950px){
+  nav ul {
+    display: none;
+  }
+
+  .logo-image {
+    width: 124px;
+    height: 66.41px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .hero-text h1 {
+    display: none;
+  }
+
+  hr{
+    left: 50px;
+    position: absolute;
+  }
+
+  .social {
+    left: 65px;
+  }
+
+  .follow-us p {
+    left: 36px;
+  }
+
+  .menu {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .menu .menu-img {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .hero-text img {
+    width: 60%;
+    max-width: 536px;
+    height: auto;
+    margin-top: 499px;
+    margin-left: 22%;
+    display: flex;
+    object-fit: contain;
+    position: absolute;
+  }
 }
 
 @media (max-width: 770px) {
@@ -750,6 +798,7 @@ hr {
     transform: rotate(90deg);
     position: absolute;
   }
+
   .block2-group1 {
     max-width: 989px;
     width: 100%;
@@ -952,11 +1001,11 @@ hr {
 
   .headphone .easy {
     max-width: 105px;
-    height: 40px;
+    height: 50px;
     position: absolute;
-    top: 53px;
+    top: 48px;
     right: 128px;
-  }
+}
 
   .headphone .d4 {
     width: 20px;
@@ -983,11 +1032,11 @@ hr {
 
   .headphone .comfort {
     max-width: 115px;
-    height: 43px;
+    height: 50px;
     position: absolute;
-    top: 129px;
-    left: -9px;
-  }
+    top: 125px;
+    left: -22px;
+}
 
   .headphone .d2 {
     width: 20px;
@@ -1023,11 +1072,11 @@ hr {
 
   .headphone .charge {
     max-width: 125px;
-    height: 41px;
+    height: 50px;
     position: absolute;
-    top: 235px;
-    right: 78px;
-  }
+    top: 231px;
+    right: 61px;
+}
 
   .headphone .d1 {
     width: 20px;
@@ -1054,11 +1103,11 @@ hr {
 
   .headphone .custom {
     max-width: 115px;
-    height: 43px;
+    height: 50px;
     position: absolute;
-    top: 172px;
+    top: 167px;
     right: -19px;
-  }
+}
 
   .headphone .d3 {
     width: 20px;
@@ -1387,12 +1436,11 @@ hr {
     width: 34px;
     height: 30px;
     object-fit: contain;
-
     margin-top: 20px;
   }
 
   .follow-us p {
-    left: 3px;
+    left: 0px;
     top: 220px;
   }
 
@@ -1402,7 +1450,7 @@ hr {
   }
 
   hr {
-    left: 20px;
+    left: 18px;
     position: absolute;
     top: 304px;
   }
@@ -1475,17 +1523,18 @@ hr {
   .home-main-img {
     display: flex;
     margin-top: 135px;
-    margin-left: 66px;
+    margin-left: 73px;
     position: relative;
   }
 
   .home-main-img .logo-small {
     width: 111px;
-    height: 47px;
+    height: 43px;
     position: absolute;
-    left: 134px;
+    left: 153px;
     top: -21px;
-  }
+}
+
   .home-main-img h1 {
     font-size: 160px;
     color: #590078;
@@ -1568,9 +1617,9 @@ hr {
     padding: 0 20px;
     position: absolute;
     left: -15px;
-}
+  }
 
-.f-logo .jbl {
+  .f-logo .jbl {
   display: block;
   width: 34px;
   height: 30px;
@@ -1579,7 +1628,7 @@ hr {
   position: relative;
   left: -117px;
   margin-bottom: 49px;
-}
+  }
 
   .social-med {
     display: flex;
@@ -1708,5 +1757,13 @@ hr {
     width: 242px;
     height: 62px;
     background: #1b1918;
+  }
+
+  .home-main-img .logo-small {
+    width: 111px;
+    height: 43px;
+    position: absolute;
+    left: 134px;
+    top: -21px;
   }
 }
