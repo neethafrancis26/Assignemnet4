@@ -318,11 +318,9 @@ hr {
 }
 
 .blr img {
-  /* top: 53px; */
   width: 100%;
   max-width: 280px;
   height: auto;
-  /* position: relative; */
 }
 
 .no-blr img {
@@ -836,8 +834,7 @@ hr {
     width: 100%;
     margin-top: 58px;
     margin-left: -6px;
-}
-
+  }
 }
 
 @media (max-width: 770px) {
@@ -1997,6 +1994,6 @@ hr {
     display: flex;
     justify-content: center;
     width: 303px;
-}
+  }
   
 }
