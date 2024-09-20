@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  background-color: #0b0a09;
+}
+
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -28,8 +32,9 @@
   display: flex;
   justify-content: center;
   background: #0b0a09;
+ 
 }
-
+ 
 #landing-section {
   background-image: url("../images/Home.png");
   width: 100%;
@@ -153,7 +158,7 @@ aside {
   transform: rotate(90deg);
   width: 83px;
   height: 24px;
-  top: 398px;
+  top: 399px;
   left: 132px;
   gap: 0px;
   opacity: 0px;
@@ -166,8 +171,8 @@ aside {
 hr {
   width: 48px;
   height: 0px;
-  top: 482px;
-  left: 233px;
+  top: 481px;
+  left: 259px;
   gap: 0px;
   opacity: 0px;
   transform: rotate(90deg);
@@ -224,14 +229,14 @@ hr {
   font-weight: 600;
   line-height: 54px;
   color: #ffffff;
-  margin-top: 134px;
+  margin-top: 141px;
 }
 
 .block2-contents p {
   font-size: 16px;
   line-height: 24px;
   color: #9d9895;
-  margin-top: 31px;
+  margin-top: 20px;
 }
 
 .block2-img {
@@ -240,7 +245,8 @@ hr {
 
 .block2-img .infine {
   width: 100%;
-  margin-top: 112px;
+  margin-top: 145px;
+  margin-left: 64px;
 }
 
 .block2-img .bloc-headp {
@@ -312,9 +318,11 @@ hr {
 }
 
 .blr img {
+  /* top: 53px; */
   width: 100%;
   max-width: 280px;
   height: auto;
+  /* position: relative; */
 }
 
 .no-blr img {
@@ -517,12 +525,19 @@ hr {
   opacity: 0px;
 }
 
+.spec-btn{
+    position: relative;
+    top: 20px;
+    left: 14px;
+}
+
 .spec-btn button {
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5%;
   width: 158px;
   height: 56px;
@@ -604,6 +619,10 @@ hr {
   height: 24px;
 }
 
+.foot-column{
+  margin-left: 20px;
+}
+
 .foot-col {
   margin-right: 91px;
 }
@@ -641,6 +660,7 @@ hr {
 
 .foot-desc .desktop-desc {
   margin-top: 114px;
+  font-size: 14px;
 }
 
 .foot-desc .desktop-desc a {
@@ -689,7 +709,7 @@ hr {
 
 .foot-btn {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 38px;
 }
 
 .social-row {
@@ -754,6 +774,75 @@ hr {
     object-fit: contain;
     position: absolute;
   }
+}
+
+@media(max-width:1044px){
+  .block2-group1 {
+    max-width: 989px;
+    width: 100%;
+    height: 405px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .block2-container {
+    max-width: 1440px;
+    width: 100%;
+    height: 589px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block2-contents h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .block2-contant-sec2 {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .block2-img .infine {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .block2-img .infine {
+    width: 85%;
+    margin-top: 30px;
+  }
+
+  .spec-btn button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 158px;
+    height: 56px;
+    border: none;
+     margin-top: -25px; 
+    background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
+  }
+
+  .block2-img .infine {
+    width: 100%;
+    margin-top: 145px;
+    margin-left: -6px;
+}
+
 }
 
 @media (max-width: 770px) {
@@ -1240,6 +1329,40 @@ hr {
     position: relative;
   }
 
+  .dot{
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: 136px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+  }
+
+  .line1{
+    position: absolute;
+    width: 31px;
+    left: 146px;
+    top: -14px;
+  }
+  
+  .line2{
+    position: absolute;
+    width: 32px;
+    left: 176px;
+    top: -14px;
+
+  }
+
+  .r150{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    object-fit: contain;
+    left: 156px;
+    top: -38px;
+  }
+
   .home-main-img .logo-small {
     width: 111px;
     height: 47px;
@@ -1391,7 +1514,7 @@ hr {
   }
 
   .home-main-img h1 {
-    font-size: 149px;
+    font-size: 160px;
     color: #590078;
     position: relative;
     top: -23px;
@@ -1415,6 +1538,11 @@ hr {
     margin: 0 auto;
     padding: 0 20px;
   }
+
+  .spec-btn button{
+    position: relative;
+    top: 30px;
+  }
 }
 
 @media (max-width: 377px) {
@@ -1425,6 +1553,11 @@ hr {
     top: 0;
     left: 0;
     margin-top: 20px;
+  }
+
+  .spec-btn button {
+    position: relative;
+    top: 21px;
   }
 
   .logo-image {
@@ -1446,13 +1579,13 @@ hr {
 
   .social {
     left: 33px;
-    top: 353px;
+    top: 331px;
   }
 
   hr {
     left: 18px;
     position: absolute;
-    top: 304px;
+    top: 287px;
   }
 
   #landing-section {
@@ -1527,18 +1660,48 @@ hr {
     position: relative;
   }
 
+  .dot{
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: 136px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+  }
+
+  .line1{
+    position: absolute;
+    width: 31px;
+    left: 147px;
+    top: -14px;
+  }
+  
+  .line2{
+    position: absolute;
+    width: 32px;
+    left: 177px;
+    top: -14px;
+
+  }
+
+  .r150 {
+    width: 107px;
+    height: 63px;
+    position: absolute;
+    object-fit: contain;
+    left: 168px;
+    top: -45px;
+  }
+
   .home-main-img .logo-small {
     width: 111px;
     height: 43px;
     position: absolute;
     left: 153px;
     top: -21px;
-}
-
-  .home-main-img h1 {
-    font-size: 160px;
-    color: #590078;
   }
+
   .home-headset {
     width: 220px;
     height: 262px;
@@ -1601,13 +1764,13 @@ hr {
     width: 100%;
     background-color: #0b0a09;
     color: white;
-    height: 670px;
+    height: 607px;
   }
 
   .footer-div {
     width: 100%;
     max-width: 1440px;
-    height: 659px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1672,6 +1835,7 @@ hr {
     border-radius: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5%;
     width: 158px;
     height: 56px;
@@ -1694,22 +1858,54 @@ hr {
     padding: 10px;
     border: none;
     border-radius: 39px;
-    width: 272px;
-    height: 62px;
+    width: 320px;
+    height: 56px;
     background: #1b1918;
+    margin-top: 30px;
   }
 
   .home-main-img h1 {
-    font-size: 149px;
+    font-size: 160px;
     color: #590078;
     position: relative;
-    top: -23px;
+    top: -40px;
   }
 
   .home-headset {
     width: 243px;
     height: 262px;
     position: absolute;
+  }
+
+  .headphone .d4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 65px;
+    left: 236px;
+  }
+
+  .headphone .l21 {
+    width: 28px;
+    position: absolute;
+    top: 53px;
+    left: 212px;
+  }
+
+  .headphone .l22 {
+    width: 30px;
+    position: absolute;
+    border: 2px #7d7978;
+    top: 53px;
+    left: 183px;
+  }
+
+  .headphone .easy {
+    max-width: 105px;
+    height: 50px;
+    position: absolute;
+    top: 29px;
+    right: 85px;
   }
 }
 
@@ -1766,4 +1962,45 @@ hr {
     left: 134px;
     top: -21px;
   }
+
+  .dot{
+    width: 20px;
+    height: 20px;
+    top: 3px;
+    left: 124px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+  }
+
+  .line1{
+    position: absolute;
+    width: 31px;
+    left: 133px;
+    top: -14px;
+  }
+  
+  .line2{
+    position: absolute;
+    width: 32px;
+    left: 163px;
+    top: -14px;
+
+  }
+
+  .r150{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    object-fit: contain;
+    left: 146px;
+    top: -38px;
+  }
+
+  .block2-contant-sec2 {
+    display: flex;
+    justify-content: center;
+    width: 303px;
+}
+  
 }
