@@ -813,13 +813,8 @@ hr {
   }
 
   .block2-img .infine {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  .block2-img .infine {
     width: 85%;
-    margin-top: 30px;
+    margin-top: 58px;
   }
 
   .spec-btn button {
@@ -839,7 +834,7 @@ hr {
 
   .block2-img .infine {
     width: 100%;
-    margin-top: 145px;
+    margin-top: 58px;
     margin-left: -6px;
 }
 
@@ -945,12 +940,12 @@ hr {
 
   .block2-img .infine {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 58px;
   }
 
   .block2-img .infine {
     width: 85%;
-    margin-top: 30px;
+    margin-top: 58px;
   }
 
   .social-med {
@@ -1631,13 +1626,14 @@ hr {
   .blr img {
     width: 100%;
     max-width: 180px;
+    margin-left: 19px;
   }
 
   .no-blr img {
-    width: 100%;
-    max-width: 220px;
+    width: 121%;
+    max-width: 233px;
     height: auto;
-  }
+}
 
   .no-blr-btn .nbb {
     background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
