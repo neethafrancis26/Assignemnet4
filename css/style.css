@@ -1087,7 +1087,7 @@ hr {
     position: absolute;
     top: 48px;
     right: 128px;
-}
+  }
 
   .headphone .d4 {
     width: 20px;
@@ -1118,7 +1118,7 @@ hr {
     position: absolute;
     top: 125px;
     left: -22px;
-}
+  }
 
   .headphone .d2 {
     width: 20px;
@@ -1158,7 +1158,7 @@ hr {
     position: absolute;
     top: 231px;
     right: 61px;
-}
+  }
 
   .headphone .d1 {
     width: 20px;
@@ -1189,7 +1189,7 @@ hr {
     position: absolute;
     top: 167px;
     right: -19px;
-}
+  }
 
   .headphone .d3 {
     width: 20px;
@@ -1363,21 +1363,25 @@ hr {
     left: 134px;
     top: -21px;
   }
+
   .home-main-img h1 {
     font-size: 160px;
     color: #590078;
   }
+
   .home-headset {
     width: 220px;
     height: 262px;
     position: absolute;
   }
+
   .home-tooltip {
     position: absolute;
     margin-left: 157px;
     margin-top: 21px;
     z-index: 1;
   }
+
   .home-tooltip img {
     width: 95px;
     height: 32px;
@@ -1385,6 +1389,7 @@ hr {
     position: absolute;
     z-index: -1;
   }
+
   .home-tooltip button {
     width: 54px;
   }
@@ -1392,6 +1397,7 @@ hr {
   .home-j {
     z-index: 1;
   }
+
   .socialmedia-links {
     display: grid;
   }
@@ -1550,7 +1556,7 @@ hr {
 
   .spec-btn button {
     position: relative;
-    top: 21px;
+    top: 44px;
   }
 
   .logo-image {
@@ -1631,7 +1637,7 @@ hr {
     width: 121%;
     max-width: 233px;
     height: auto;
-}
+  }
 
   .no-blr-btn .nbb {
     background: linear-gradient(90deg, #4a4745 0%, #151414 100%);
@@ -1701,12 +1707,14 @@ hr {
     height: 262px;
     position: absolute;
   }
+
   .home-tooltip {
     position: absolute;
     margin-left: 157px;
     margin-top: 21px;
     z-index: 1;
   }
+
   .home-tooltip img {
     width: 95px;
     height: 32px;
@@ -1714,6 +1722,7 @@ hr {
     position: absolute;
     z-index: -1;
   }
+
   .home-tooltip button {
     width: 54px;
   }
@@ -1721,6 +1730,7 @@ hr {
   .home-j {
     z-index: 1;
   }
+
   .socialmedia-links {
     display: grid;
   }
@@ -1777,14 +1787,14 @@ hr {
   }
 
   .f-logo .jbl {
-  display: block;
-  width: 34px;
-  height: 30px;
-  object-fit: contain;
-  margin-top: 20px;
-  position: relative;
-  left: -117px;
-  margin-bottom: 49px;
+    display: block;
+    width: 34px;
+    height: 30px;
+    object-fit: contain;
+    margin-top: 20px;
+    position: relative;
+    left: -117px;
+    margin-bottom: 49px;
   }
 
   .social-med {
