@@ -121,7 +121,7 @@ nav {
   max-width: 536px;
   height: auto;
   margin-top: 499px;
-  margin-left: 22%;
+  margin-left: 21%;
   display: flex;
   object-fit: contain;
   position: absolute;
@@ -1595,6 +1595,8 @@ hr {
   .block2-contents p {
     width: 328px;
     height: 115px;
+    position: relative;
+    top: 35px;
   }
 
   .block2-contents {
@@ -1604,6 +1606,8 @@ hr {
 
   .block2-contents h3 {
     font-size: 20px;
+    position: relative;
+    top: 20px;
   }
 
   .items {
